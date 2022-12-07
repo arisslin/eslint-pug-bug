@@ -74,14 +74,6 @@
       "react-app/jest"
     ],
     "parser": "@typescript-eslint/parser",
-    // "parserOptions": {
-    //   "project": ["./tsconfig.eslint.json"],
-    //   "ecmaFeatures": {
-    //     "jsx": true
-    //   },
-    //   "ecmaVersion": 12,
-    //   "sourceType": "module"
-    // },
     "plugins": [
       "pug"
     ]
@@ -99,7 +91,8 @@
     ]
   },
   "devDependencies": {
-    "eslint-plugin-pug": "^1.2.5"
+    "eslint-plugin-pug": "^1.2.5",
+    "prettier": "^2.8.0"
   },
   "jest": {
     "roots": [
