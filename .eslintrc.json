@@ -4,7 +4,18 @@
     "react-app/jest"
   ],
   "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
   "plugins": [
     "pug"
-  ]
+  ],
+  "rules": {
+    "@typescript-eslint/await-thenable": "error"
+  }
 }
