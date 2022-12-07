@@ -73,6 +73,15 @@
       "react-app",
       "react-app/jest"
     ],
+    "parser": "@typescript-eslint/parser",
+    // "parserOptions": {
+    //   "project": ["./tsconfig.eslint.json"],
+    //   "ecmaFeatures": {
+    //     "jsx": true
+    //   },
+    //   "ecmaVersion": 12,
+    //   "sourceType": "module"
+    // },
     "plugins": [
       "pug"
     ]
